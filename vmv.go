@@ -56,7 +56,15 @@ func getAvailabilities(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
-	timeslots := db.getTimeslots(ids[0], true)
+	restrictedMode := true
+	fmt.Println(request.Header.Values("Username"))
+	if len(request.Header.Values("Username")) > 0 && len(request.Header.Values("Password")) > 0 {
+		if request.Header.Values("Username")[0] == "Docteur" && request.Header.Values("Password")[0] == "Hyde" {
+			restrictedMode = false
+		}
+	}
+
+	timeslots := db.getTimeslots(ids[0], restrictedMode)
 
 	json.NewEncoder(writer).Encode(timeslots)
 }

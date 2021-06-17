@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "60ca6764a14686ed2e79c83f"
+  },
+  "name": "Centre de vaccination",
+  "address": "1 Rue du docteur Maboul"
+},{
+  "_id": {
+    "$oid": "60ca6764a14686ed2e79c840"
+  },
+  "name": "Pharmacie du coin",
+  "address": "1 place du patient anglais"
+}]

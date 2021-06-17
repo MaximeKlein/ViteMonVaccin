@@ -2,7 +2,8 @@
 
 ## Configuration DB
 Installer Mongodb
-Rajouter un DB "ViteMonVaccin" avec trois collections Users, VaccinationCenters, et Timeslots
+Rajouter un DB "ViteMonVaccin" avec deux collections VaccinationCenters, et Timeslots
+Deux fichiers de backups sont fournis pour avoir quelques data dans les collections
 
 ## Lancer l'application
 go build

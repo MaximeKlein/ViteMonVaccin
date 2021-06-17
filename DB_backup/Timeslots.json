@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "60ca8482602283b4d10b9a7c"
+  },
+  "time": "10:00",
+  "date": "17/06/2021",
+  "locationId": "60ca6764a14686ed2e79c83f",
+  "bookedby": "Bob"
+},{
+  "_id": {
+    "$oid": "60ca8570602283b4d10b9a7d"
+  },
+  "time": "11:00",
+  "date": "17/06/2021",
+  "locationId": "60ca6764a14686ed2e79c83f"
+},{
+  "_id": {
+    "$oid": "60ca858f602283b4d10b9a7e"
+  },
+  "time": "12:00",
+  "date": "17/06/2021",
+  "locationId": "60ca6764a14686ed2e79c83f"
+}]
